@@ -48,24 +48,42 @@ All the analysis was done using Python (python 3.1.12) and R statistical program
 
 The subtype study carried out using the merged ATLAS and GEARS dataset and focusing on five antibiotics (cefepime, ceftazidime, gentamicin, levofloxacin, and piperacillin-tazobactam) identified 33 distinct subtypes of Klebsiella pneumoniae between 2018 and 2021 (Table 1 and Figure 1). Notably, the analysis highlighted that the extreme subtypes, RRRRR (~13%) and SSSSS (~55%), accounted for approximately 70% of the isolates (Table 1). We then explored the relationship between the regional patterns (averaged) of the most prevalent subtypes in the merged dataset (RRRRR and SSSSS) and the global climatic variables including precipitation, relative humidity (RH) and temperature (mean, minimum and maximum temperature) averaged over 2018-2021. Precipitation and relative humidity showed higher correlations with many of the subtypes than the temperature variables over the years (Figure 2). Owing to the consistent strength of correlation of precipitation and relative humidity with the most prevalent subtypes (RRRRR and SSSSS) across the years, we focused our analysis on the association between these parameters and the predominant subtypes.
 
-**Table 1:** Prevalence of 13 subtypes of K. pneumonia from 2018 to 2021.
+**Table 1:** Subtype prevalence of K. pneumonia from 2018 to 2021.
 
-| Subtype | 2018 (%) | 2019 (%) | 2020 (%) | 2021 (%) |
-| ------- | -------- | -------- | -------- | -------- |
-| SSSSS   | 55.79    | 48.23    | 56.32    | 56.66    |
-| SSSSR   | 2.39     | 2.88     | 3.24     | 2.65     |
-| SRSSS   | 1.85     | 1.25     | 1.83     | 2.99     |
-| SRSRR   | 0.39     | 0.59     | 0.42     | 0.94     |
-| SRRSS   | 0.69     | 0.72     | 0.92     | 1.11     |
-| RSSRR   | 0        | 0        | 0.17     | 0.26     |
-| RSRRR   | 0.08     | 0.07     | 0.08     | 0.09     |
-| RRSSS   | 3.32     | 2.69     | 2        | 1.88     |
-| RRSSR   | 0.77     | 1.11     | 0.92     | 1.37     |
-| RRSRS   | 1.77     | 2.36     | 2        | 0.85     |
-| RRSRR   | 5.56     | 7.6      | 5.32     | 7.08     |
-| RRRSS   | 2.39     | 2.23     | 1.91     | 1.19     |
-| RRRRR   | 11.96    | 14.94    | 11.56    | 13.99    |
-| Total isolates (N) | 2592 | 3052 | 2404 | 2344 |
+| subtype |  2018   |  2019   |  2020   |  2021   |
+| ------- | ------- | ------- | ------- | ------- |
+|  RRRRR  | 0.143330| 0.153526| 0.149340| 0.173929|
+|  RRRRS  | 0.032605| 0.026412| 0.026776| 0.022974|
+|  RRRSR  | 0.018868| 0.022639| 0.024513| 0.017730|
+|  RRRSS  | 0.032109| 0.022508| 0.024639| 0.017231|
+|  RRSRR  | 0.059914| 0.069347| 0.061848| 0.072044|
+|  RRSRS  | 0.020689| 0.019516| 0.022753| 0.013984|
+|  RRSSR  | 0.008606| 0.012620| 0.010434| 0.012236|
+|  RRSSS  | 0.025323| 0.026932| 0.024136| 0.025596|
+|  RSRRR  | 0.002979| 0.001041| 0.000629| 0.001998|
+|  RSRRS  | 0.001159| 0.002602| 0.001508| 0.001873|
+|  RSRSR  | 0.000331| 0.000260| 0.000251| 0.000375|
+|  RSRSS  | 0.002317| 0.002472| 0.002388| 0.003371|
+|  RSSRR  | 0.000828| 0.001301| 0.000880| 0.000999|
+|  RSSRS  | 0.001324| 0.001301| 0.001886| 0.001249|
+|  RSSSR  | 0.000331| 0.000520| 0.000377| 0.000125|
+|  RSSSS  | 0.003476| 0.004294| 0.002766| 0.002997|
+|  SRRRR  | 0.001655| 0.003513| 0.003394| 0.002747|
+|  SRRRS  | 0.008441| 0.008977| 0.009177| 0.006493|
+|  SRRSR  | 0.003145| 0.001821| 0.003017| 0.003121|
+|  SRRSS  | 0.012910| 0.011319| 0.010811| 0.009240|
+|  SRSRR  | 0.003310| 0.004424| 0.004525| 0.003621|
+|  SRSRS  | 0.007448| 0.006505| 0.007417| 0.006368|
+|  SRSSR  | 0.003145| 0.007156| 0.006914| 0.008990|
+|  SRSSS  | 0.019033| 0.015092| 0.017096| 0.019978|
+|  SSRRR  | 0.006124| 0.004684| 0.001131| 0.003746|
+|  SSRRS  | 0.006620| 0.006245| 0.006160| 0.005868|
+|  SSRSR  | 0.002152| 0.001171| 0.000629| 0.001748|
+|  SSRSS  | 0.010262| 0.010669| 0.011439| 0.013485|
+|  SSSRR  | 0.006455| 0.008587| 0.005657| 0.005494|
+|  SSSRS  | 0.029957| 0.029534| 0.026524| 0.022600|
+|  SSSSR  | 0.023337| 0.028363| 0.027404| 0.022475|
+|  SSSSS  | 0.501821| 0.484647| 0.503583| 0.495318|
 
 ![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/figure-1-complete-workflow.png)
 **Figure 01: Complete workflow of integration of AMR data with environmental parameters.** (A) Illustration showing conversion for gram negative pathogens antibiotics data (FEP, CAZ, GEN, LVX, and TZP) to subtype for clinical isolates for different countries, (B) Illustration showing year wise (2018) prevalence of 32 subtypes for the given antibiotics, (C) Illustration showing 6 environmental parameters across countries for a given year (2018), (D) Regression analysis showing relationship between RRRRR subtype prevalence with relative humidity (RH2M).
@@ -109,6 +127,79 @@ Antibiotic Resistance Increases with Local Temperature. 8(6), 510–514. https:/
 8. Ratkowsky, D. A., Olley, J., McMeekin, T. A., & Ball, A. (1982). Relationship between temperature and growth rate of bacterial cultures. Journal of Bacteriology, 149(1), 1–5. https://doi.org/10.1128/JB.149.1.1-5.1982
 
 9. WHO publishes list of bacteria for which new antibiotics are urgently needed. (n.d.). Retrieved July 31, 2023, fromhttps://www.who.int/news/item/27-02-2017-who-publishes-list-of-bacteria-for-which-new-antibiotics-are-urgently-needed
+## Supplementary Tables
+**Table S1:** Subtype prevalence of K. pneumonia in **Atlus** from 2018 to 2021 
+| subtype |  2018   |  2019   |  2020   |  2021   |
+| ------- | ------- | ------- | ------- | ------- |
+|  RRRRR  | 0.149810| 0.154545| 0.155338| 0.179757|
+|  RRRRS  | 0.032238| 0.025162| 0.026211| 0.025450|
+|  RRRSR  | 0.019595| 0.022890| 0.025322| 0.019599|
+|  RRRSS  | 0.034345| 0.022565| 0.025618| 0.018137|
+|  RRSRR  | 0.061104| 0.067695| 0.063379| 0.072254|
+|  RRSRS  | 0.021492| 0.018506| 0.023249| 0.014919|
+|  RRSSR  | 0.008850| 0.012987| 0.010662| 0.011994|
+|  RRSSS  | 0.023177| 0.026948| 0.024878| 0.026766|
+|  RSRRR  | 0.003582| 0.001136| 0.000592| 0.002194|
+|  RSRRS  | 0.001475| 0.003247| 0.001629| 0.002194|
+|  RSRSR  | 0.000211| 0.000325| 0.000296| 0.000439|
+|  RSRSS  | 0.002739| 0.002760| 0.002517| 0.003803|
+|  RSSRR  | 0.001054| 0.001623| 0.000740| 0.000731|
+|  RSSRS  | 0.001686| 0.001623| 0.002073| 0.001463|
+|  RSSSR  | 0.000000| 0.000649| 0.000296| 0.000146|
+|  RSSSS  | 0.003371| 0.004545| 0.002814| 0.003364|
+|  SRRRR  | 0.001475| 0.003896| 0.003406| 0.003072|
+|  SRRRS  | 0.008850| 0.008279| 0.009625| 0.006582|
+|  SRRSR  | 0.003371| 0.001948| 0.003110| 0.002779|
+|  SRRSS  | 0.014539| 0.012338| 0.011106| 0.008922|
+|  SRSRR  | 0.003161| 0.004058| 0.004591| 0.002633|
+|  SRSRS  | 0.007796| 0.005844| 0.007256| 0.005997|
+|  SRSSR  | 0.003582| 0.006656| 0.006664| 0.008483|
+|  SRSSS  | 0.019174| 0.015747| 0.016881| 0.018283|
+|  SSRRR  | 0.006953| 0.004870| 0.001185| 0.003803|
+|  SSRRS  | 0.005900| 0.006656| 0.006368| 0.006143|
+|  SSRSR  | 0.001896| 0.001461| 0.000740| 0.001755|
+|  SSRSS  | 0.010114| 0.012013| 0.011402| 0.014626|
+|  SSSRR  | 0.007164| 0.008279| 0.005627| 0.005412|
+|  SSSRS  | 0.031606| 0.027273| 0.026951| 0.023402|
+|  SSSSR  | 0.023177| 0.028247| 0.026507| 0.021793|
+|  SSSSS  | 0.486515| 0.485227| 0.492966| 0.483107|
+
+**Table S2:** Subtype prevalence of K. pneumonia in **GEARS** from 2018 to 2021 
+| subtype |  2018   |  2019   |  2020   |  2021   |
+| ------- | ------- | ------- | ------- | ------- |
+|  RRRRR  | 0.119599| 0.149410| 0.115641| 0.139932|
+|  RRRRS  | 0.033951| 0.031455| 0.029950| 0.008532|
+|  RRRSR  | 0.016204| 0.021625| 0.019967| 0.006826|
+|  RRRSS  | 0.023920| 0.022280| 0.019135| 0.011945|
+|  RRSRR  | 0.055556| 0.076016| 0.053245| 0.070819|
+|  RRSRS  | 0.017747| 0.023591| 0.019967| 0.008532|
+|  RRSSR  | 0.007716| 0.011140| 0.009151| 0.013652|
+|  RRSSS  | 0.033179| 0.026868| 0.019967| 0.018771|
+|  RSRRR  | 0.000772| 0.000655| 0.000832| 0.000853|
+|  RSRRS  | 0.000000| 0.000000| 0.000832| 0.000000|
+|  RSRSR  | 0.000772| 0.000000| 0.000000| 0.000000|
+|  RSRSS  | 0.000772| 0.001311| 0.001664| 0.000853|
+|  RSSRR  | 0.000000| 0.000000| 0.001664| 0.002560|
+|  RSSRS  | 0.000000| 0.000000| 0.000832| 0.000000|
+|  RSSSR  | 0.001543| 0.000000| 0.000832| 0.000000|
+|  RSSSS  | 0.003858| 0.003277| 0.002496| 0.000853|
+|  SRRRR  | 0.002315| 0.001966| 0.003328| 0.000853|
+|  SRRRS  | 0.006944| 0.011796| 0.006656| 0.005973|
+|  SRRSR  | 0.002315| 0.001311| 0.002496| 0.005119|
+|  SRRSS  | 0.006944| 0.007208| 0.009151| 0.011092|
+|  SRSRR  | 0.003858| 0.005898| 0.004160| 0.009386|
+|  SRSRS  | 0.006173| 0.009174| 0.008319| 0.008532|
+|  SRSSR  | 0.001543| 0.009174| 0.008319| 0.011945|
+|  SRSSS  | 0.018519| 0.012451| 0.018303| 0.029863|
+|  SSRRR  | 0.003086| 0.003932| 0.000832| 0.003413|
+|  SSRRS  | 0.009259| 0.004587| 0.004992| 0.004266|
+|  SSRSR  | 0.003086| 0.000000| 0.000000| 0.001706|
+|  SSRSS  | 0.010802| 0.005242| 0.011647| 0.006826|
+|  SSSRR  | 0.003858| 0.009830| 0.005824| 0.005973|
+|  SSSRS  | 0.023920| 0.038663| 0.024126| 0.017918|
+|  SSSSR  | 0.023920| 0.028834| 0.032446| 0.026451|
+|  SSSSS  | 0.557870| 0.482307| 0.563228| 0.566553|
+
 
 ## Supplementary figures
 
