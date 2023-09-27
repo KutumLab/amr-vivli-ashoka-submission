@@ -132,6 +132,12 @@ Antibiotic Resistance Increases with Local Temperature. 8(6), 510–514. https:/
 
 ## Supplementary figures
 
+![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/suppl-fig01-subtype-envr-ATLAS.png)
+**Figure S1: ATLAS data only - Bubble plot representing significant association post regression analysis across different subtypes of K. pneumonia and global climatic parameters from 2018 to 2021** 
+
+![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/suppl-fig02-subtype-envr-GEARS.png)
+**Figure S2: GEARS data only - Bubble plot representing significant association post regression analysis across different subtypes of K. pneumonia and global climatic parameters from 2018 to 2021**
+
 ![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/supplementary-figure-3-ab-ATS.png)
 ![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/supplementary-figure-3-c-ATS.png)
 **Figure S3: ATLAS data only - regression analysis between all-susceptible-subtype prevalence (0-1) with relative humidity (log10 transformed)** 
