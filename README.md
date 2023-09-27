@@ -74,6 +74,8 @@ Antibiotic Resistance Increases with Local Temperature. 8(6), 510–514. https:/
 
 9. WHO publishes list of bacteria for which new antibiotics are urgently needed. (n.d.). Retrieved July 31, 2023, fromhttps://www.who.int/news/item/27-02-2017-who-publishes-list-of-bacteria-for-which-new-antibiotics-are-urgently-needed
 
+## Supplementary figures
+![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/supplementary-figure-3-ab-ATS.png)
 
 
 
