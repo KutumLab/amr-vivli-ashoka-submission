@@ -5,8 +5,25 @@ Novel approach to analysis of AMR: looking at the composite resistance phenotype
 ## Date of Submission (dd-mmm-yy):
 30th July 2023
 ## Research Team Members details (put the Lead Applicant 1st in the table):
+| Team Member Name        | Role in the Data Challenge                   | Affiliation                               | Email                         | Country |
+| ----------------------- | ------------------------------------------ | ----------------------------------------- | ----------------------------- | ------- |
+| Shraddha Karve          | Conceptualization of subtype analysis, formulation of EOI and final report | Trivedi School of Biology, Ashoka University | shraddha.karve@ashoka.edu.in | India   |
+| Rintu Kutum             | Data analysis and final report              | Department of Computer Science, Ashoka University | rintu.kutum@ashoka.edu.in   | India   |
+| Devojit Sarma           | Conceptualization of climatic correlations and final report | ICMR, NIREH                               | devojit.sarma@icmr.gov.in    | India   |
+| Vasundhara Karthikeyan  | Data wrangling and analysis                 | Trivedi School of Biology, Ashoka University | vasundhara.karthikeyan@ashoka.edu.in | India   |
+| Ragul N                 | Data wrangling and analysis                 | Department of Computer Science, Ashoka University | ragul.n_asp24@ashoka.edu.in  | India   |
 
 ## Datasets included in the analysis (Tick all those that apply):
+| Project                                                      | Status |
+| ------------------------------------------------------------ | ------ |
+| GSK – SOAR 201818                                            |        |
+| Johnson & Johnson – Bedaquiline Drug Resistance Assessment in MDR-TB (DREAM) |        |
+| Paratek - KEYSTONE                                           | ✔      |
+| Pfizer – ATLAS_Antibiotics                                   |        |
+| Pfizer – ATLAS_Antifungals                                   |        |
+| Shionogi – SIDERO-WT                                         | ✔      |
+| Venatorx – GEARS                                            |        |
+
 ## Objectives
 <p align:"justify">The escalating challenge of antimicrobial resistance (AMR) poses a significant global concern for public healthcare systems<sup>1,2</sup>. Current AMR surveillance and molecular mechanism studies traditionally focus on specific drug-bug combinations, like carbapenem-resistant Klebsiella pneumoniae, designated as a priority pathogen by the WHO<sup>3</sup>. While wastewater and environmental surveillance aim to detect Klebsiella species and genes conferring carbapenem resistance<sup>4</sup>, it is known that resistance genes for one antibiotic often coexist with genes for resistance to others<sup>5</sup>. To address these complexities, we propose a novel analysis approach using Klebsiella pneumoniae as a model. We consider the resistance profile of an isolate for a set of common antibiotics across two datasets, ATLAS and GEARS. We term this composite phenotype, encompassing resistance/sensitivity to a group of antibiotics, a 'subtype' of the pathogen. Our primary objective is to track and study the prevalence of different subtypes across time and space, enabling a more comprehensive understanding of AMR dynamics. We then explore the impact of climatic parameters on the prevalence of different Klebsiella pneumoniae subtypes, aiming to uncover additional insights into antibiotic resistance patterns. Rising temperatures and climate change have been associated with recent antibiotic resistance developments, as bacterial growth and genetic material dissemination are closely tied to temperature conditions<sup>6</sup>. Heavy rainfall has been linked to bacterial mutagenesis and antibiotic resistance gene expression<sup>7</sup>. Rising local temperatures in the United States and Europe have shown correlations with increased antibiotic resistance at the population level in various pathogens<sup>8,9</sup>.</p>
 
@@ -32,6 +49,23 @@ All the analysis was done using Python (python 3.1.12) and R statistical program
 The subtype study carried out using the merged ATLAS and GEARS dataset and focusing on five antibiotics (cefepime, ceftazidime, gentamicin, levofloxacin, and piperacillin-tazobactam) identified 33 distinct subtypes of Klebsiella pneumoniae between 2018 and 2021 (Table 1 and Figure 1). Notably, the analysis highlighted that the extreme subtypes, RRRRR (~13%) and SSSSS (~55%), accounted for approximately 70% of the isolates (Table 1). We then explored the relationship between the regional patterns (averaged) of the most prevalent subtypes in the merged dataset (RRRRR and SSSSS) and the global climatic variables including precipitation, relative humidity (RH) and temperature (mean, minimum and maximum temperature) averaged over 2018-2021. Precipitation and relative humidity showed higher correlations with many of the subtypes than the temperature variables over the years (Figure 2). Owing to the consistent strength of correlation of precipitation and relative humidity with the most prevalent subtypes (RRRRR and SSSSS) across the years, we focused our analysis on the association between these parameters and the predominant subtypes.
 
 **Table 1:** Prevalence of 13 subtypes of K. pneumonia from 2018 to 2021.
+
+| Subtype | 2018 (%) | 2019 (%) | 2020 (%) | 2021 (%) |
+| ------- | -------- | -------- | -------- | -------- |
+| SSSSS   | 55.79    | 48.23    | 56.32    | 56.66    |
+| SSSSR   | 2.39     | 2.88     | 3.24     | 2.65     |
+| SRSSS   | 1.85     | 1.25     | 1.83     | 2.99     |
+| SRSRR   | 0.39     | 0.59     | 0.42     | 0.94     |
+| SRRSS   | 0.69     | 0.72     | 0.92     | 1.11     |
+| RSSRR   | 0        | 0        | 0.17     | 0.26     |
+| RSRRR   | 0.08     | 0.07     | 0.08     | 0.09     |
+| RRSSS   | 3.32     | 2.69     | 2        | 1.88     |
+| RRSSR   | 0.77     | 1.11     | 0.92     | 1.37     |
+| RRSRS   | 1.77     | 2.36     | 2        | 0.85     |
+| RRSRR   | 5.56     | 7.6      | 5.32     | 7.08     |
+| RRRSS   | 2.39     | 2.23     | 1.91     | 1.19     |
+| RRRRR   | 11.96    | 14.94    | 11.56    | 13.99    |
+| Total isolates (N) | 2592 | 3052 | 2404 | 2344 |
 
 ![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/figure-1-complete-workflow.png)
 **Figure 01: Complete workflow of integration of AMR data with environmental parameters.** (A) Illustration showing conversion for gram negative pathogens antibiotics data (FEP, CAZ, GEN, LVX, and TZP) to subtype for clinical isolates for different countries, (B) Illustration showing year wise (2018) prevalence of 32 subtypes for the given antibiotics, (C) Illustration showing 6 environmental parameters across countries for a given year (2018), (D) Regression analysis showing relationship between RRRRR subtype prevalence with relative humidity (RH2M).
