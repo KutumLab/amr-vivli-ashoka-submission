@@ -27,7 +27,8 @@ Regression analysis was performed on the prevalence of thirty-two subtypes of Kl
 All the analysis was done using Python (python 3.1.12) and R statistical programming language (R 4.2.1). For reproducibility of the work we have used the Conda environment.  Data analysis and visualization  in Python was done using statsmodels (0.14.0), pandas (1.5.3), matplotlib (3.7.1), seaborn (0.12.2) and geopandas (0.9.0) modules . Data visualization  in R was done using ggplot2 (3.4.0), ggpubr (0.4.0) and RColorBrewer (1.1.3) packages.
 
 ## Results: 
-Antibiotic subtype shows significant association with climate variables:
+**Antibiotic subtype shows significant association with climate variables:**
+
 The subtype study carried out using the merged ATLAS and GEARS dataset and focusing on five antibiotics (cefepime, ceftazidime, gentamicin, levofloxacin, and piperacillin-tazobactam) identified 33 distinct subtypes of Klebsiella pneumoniae between 2018 and 2021 (Table 1 and Figure 1). Notably, the analysis highlighted that the extreme subtypes, RRRRR (~13%) and SSSSS (~55%), accounted for approximately 70% of the isolates (Table 1). We then explored the relationship between the regional patterns (averaged) of the most prevalent subtypes in the merged dataset (RRRRR and SSSSS) and the global climatic variables including precipitation, relative humidity (RH) and temperature (mean, minimum and maximum temperature) averaged over 2018-2021. Precipitation and relative humidity showed higher correlations with many of the subtypes than the temperature variables over the years (Figure 2). Owing to the consistent strength of correlation of precipitation and relative humidity with the most prevalent subtypes (RRRRR and SSSSS) across the years, we focused our analysis on the association between these parameters and the predominant subtypes.
 
 **Table 1:** Prevalence of 13 subtypes of K. pneumonia from 2018 to 2021.
