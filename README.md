@@ -85,10 +85,10 @@ Antibiotic Resistance Increases with Local Temperature. 8(6), 510–514. https:/
 
 ![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/supplementary-figure-4-ab-ATS.png)
 ![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/supplementary-figure-4-c-ATS.png)
-**Figure S3: ATLAS data only - regression analysis between all-resistance-subtype prevalence (0-1) with relative humidity (log10 transformed)** 
+**Figure S5: ATLAS data only - regression analysis between all-resistance-subtype prevalence (0-1) with relative humidity (log10 transformed)** 
 ![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/supplementary-figure-4-ab-GEA.png)
 ![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/supplementary-figure-4-c-GEA.png)
-**Figure S4: GEARS data only - regression analysis between all-resistance-subtype prevalence (0-1) with relative humidity (log10 transformed)**
+**Figure S6: GEARS data only - regression analysis between all-resistance-subtype prevalence (0-1) with relative humidity (log10 transformed)**
 
 
 
