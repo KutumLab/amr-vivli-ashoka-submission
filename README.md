@@ -36,7 +36,7 @@ The subtype study carried out using the merged ATLAS and GEARS dataset and focus
 ## Association of relative humidity with all-susceptible-subtype (SSSSS) and all-resistance-subtype (RRRRR)
 Post the multivariable regression analysis, we found that there is a strong association between the all-susceptible subtype and the relative humidity (Figure 3) and this was consistent across all the regions. We see that there is a significant inverse relationship between RH and SSSSS subtype with time (2021). We saw a similar trend between RH and RRRRR subtype across all the regions. With 2020, showing a significant inverse relationship between the RRRRR subtype and RH (Figure 4).
 
-[](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/figure-3-ab-GEA-ATS.png)
+[3](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/figure-3-ab-GEA-ATS.png)
 **Figure 03: Regression analysis between all-susceptible-subtype prevalence (0-1) with relative humidity (log10 transformed).** Heatmap showing (A) prevalence of all-susceptible-subtype (SSSSS) and (B) log10(relative humidity) for 2018 across 63 countries. (C) Scatterplot between SSSSS subtype and relative humidity (RH2M) with the regression line from 2018 to 2021 (for 2018 and 2021 corresponding p-values were less than 0.05).
 
 **Figure 04: Regression analysis between all-resistance-subtype prevalence (0-1) with relative humidity (log10 transformed).** Heatmap showing (A) prevalence of all-resistance-subtype (RRRRR) and (B) log10(relative humidity) for 2018 across 63 countries. (C) Scatterplot between RRRRR subtype and relative humidity (RH2M) with the regression line from 2018 to 2021 (for 2020 corresponding p-value was less than 0.05).
