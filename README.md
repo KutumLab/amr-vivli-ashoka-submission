@@ -11,7 +11,7 @@
 | [Rintu Kutum](https://www.ashoka.edu.in/profile/rintu-kutum/) [RK]             | Data analysis and final report              | Department of Computer Science, Ashoka University | rintu.kutum@ashoka.edu.in   | India   |
 | [Devojit Kumar Sarma](https://nireh.icmr.org.in/DKSarma.php) [DS]           | Conceptualization of climatic correlations and final report | ICMR-National Institute For Research in Environmental Health (ICMR-NIREH), Bhopal                               | devojit.sarma@icmr.gov.in    | India   |
 | Vasundhara Karthikeyan [VK] | Data wrangling and analysis                  | Trivedi School of Biology, Ashoka University | vasundhara.karthikeyan@ashoka.edu.in | India   |
-| Ragul N [RN]                | Data wrangling and analysis                  | Department of Computer Science, Ashoka University | ragul.n_asp24@ashoka.edu.in  | India   |
+| [Ragul N](https://twitter.com/RagulNatarajan8) [RN]                | Data wrangling and analysis                  | Department of Computer Science, Ashoka University | ragul.n_asp24@ashoka.edu.in  | India   |
 
 ## Datasets included in the analysis (Tick all those that apply):
 | Project                                                      | Status |
