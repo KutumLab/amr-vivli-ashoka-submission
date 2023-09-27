@@ -88,6 +88,7 @@ The subtype study carried out using the merged ATLAS and GEARS dataset and focus
 ![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/figure-1-complete-workflow.png)
 **Figure 01: Complete workflow of integration of AMR data with environmental parameters.** (A) Illustration showing conversion for gram negative pathogens antibiotics data (FEP, CAZ, GEN, LVX, and TZP) to subtype for clinical isolates for different countries, (B) Illustration showing year wise (2018) prevalence of 32 subtypes for the given antibiotics, (C) Illustration showing 6 environmental parameters across countries for a given year (2018), (D) Regression analysis showing relationship between RRRRR subtype prevalence with relative humidity (RH2M).
 
+![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/figure-02-subtype-envr-ATLAS-GEARS.pdf)
 **Figure 02: Bubble plot representing significant association post regression analysis across different subtypes of K. pneumonia and global climatic parameters from 2018 to 2021 using ATLAS and GEARS data.** The color intensity represents the R-squared value and size of the point represents the -log10(p-value), where bigger size implies statistical significance.
 
 ### Association of relative humidity with all-susceptible-subtype (SSSSS) and all-resistance-subtype (RRRRR)
