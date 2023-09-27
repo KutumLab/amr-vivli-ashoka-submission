@@ -75,7 +75,15 @@ Antibiotic Resistance Increases with Local Temperature. 8(6), 510–514. https:/
 9. WHO publishes list of bacteria for which new antibiotics are urgently needed. (n.d.). Retrieved July 31, 2023, fromhttps://www.who.int/news/item/27-02-2017-who-publishes-list-of-bacteria-for-which-new-antibiotics-are-urgently-needed
 
 ## Supplementary figures
+
 ![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/supplementary-figure-3-ab-ATS.png)
+![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/supplementary-figure-3-c-ATS.png)
+**Figure S3: ATLAS data only - regression analysis between all-susceptible-subtype prevalence (0-1) with relative humidity (log10 transformed)** 
+![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/supplementary-figure-3-ab-GEA.png)
+![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/supplementary-figure-3-c-GEA.png)
+**Figure S4: GEARS data only - regression analysis between all-susceptible-subtype prevalence (0-1) with relative humidity (log10 transformed)**
+
+
 
 
 
