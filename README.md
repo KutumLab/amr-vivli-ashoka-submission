@@ -227,6 +227,14 @@ Antibiotic Resistance Increases with Local Temperature. 8(6), 510–514. https:/
 | SSSSS   | 55.79 | 48.23 | 56.32 | 56.66 |
 | Total	  | 1296	| 1526  | 1202	| 1172  | 
 
+## Codes and IPython Notebooks
+1. [.py code for subtype convertor](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/get_subtypes.py)
+2. [IPython Notebook - ATLAS and GEARS data combined](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/data-analysis-combined.ipynb)
+3. [IPython Notebook - ATLAS data only](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/data-analysis-atlas.ipynb)
+4. [IPython Notebook - GEARS data only](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/data-analysis-gea.ipynb)
+5. [.R code for bubble plot (Figure 2)](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/02--figure02-summarize-regression-results.R)
+6. [.R code for bubble plot (Suppl figure S1 & S2](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/suppl--fig01-02-bubble-summary-reg.R)
+7. [Requirement.txt file for conda environment](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/requirements.txt)
 
 ## Acknowledgements
 SK, RK, DK, VK and RN would like to thank Vivli AMR Surveillance Open Data Re-use Data Challenge organisers and reviewers for their critical inputs and suggestions.
