@@ -87,6 +87,7 @@ The subtype study carried out using the merged ATLAS and GEARS dataset and focus
 | SSSRS   | 3.00  | 2.95  | 2.65  | 2.26  |
 | SSSSR   | 2.33  | 2.84  | 2.74  | 2.25  |
 | SSSSS	  | 50.18	| 48.46	| 50.36	| 49.53 |
+| Total	  | 6042	| 7686  | 7955	| 8009  | 
 
 ![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/figure-02-subtype-envr-ATLAS-GEARS.png)
 **Figure 2: Bubble plot representing significant association post regression analysis across different subtypes of K. pneumonia and global climatic parameters from 2018 to 2021 using ATLAS and GEARS data.** The color intensity represents the R-squared value and size of the point represents the -log10(p-value), where bigger size implies statistical significance.
@@ -181,7 +182,7 @@ Antibiotic Resistance Increases with Local Temperature. 8(6), 510–514. https:/
 | SSSRS  | 3.16  | 2.73  | 2.70  | 2.34  |
 | SSSSR  | 2.32  | 2.82  | 2.65  | 2.18  |
 | SSSSS  | 48.65 | 48.52 | 49.30 | 48.31 |
-
+| Total	  | 4746	| 6160  | 6753	| 6837  | 
 
 **Table S2:** Subtype prevalence of K. pneumonia in **GEARS** from 2018 to 2021 
 | Subtype | 2018(%)  | 2019(%)  | 2020(%)  | 2021(%)  |
@@ -218,6 +219,8 @@ Antibiotic Resistance Increases with Local Temperature. 8(6), 510–514. https:/
 | SSSRS   | 2.39  | 3.87  | 2.41  | 1.79  |
 | SSSSR   | 2.39  | 2.88  | 3.24  | 2.65  |
 | SSSSS   | 55.79 | 48.23 | 56.32 | 56.66 |
+| Total	  | 1296	| 1526  | 1202	| 1172  | 
+
 
 ## Acknowledgements
 SK, RK, DK, VK and RN would like to thank Vivli AMR Surveillance Open Data Re-use Data Challenge organisers and reviewers for their critical inputs and suggestions.
