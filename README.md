@@ -130,7 +130,7 @@ Antibiotic Resistance Increases with Local Temperature. 8(6), 510–514. https:/
 9. WHO publishes list of bacteria for which new antibiotics are urgently needed. (n.d.). Retrieved July 31, 2023, fromhttps://www.who.int/news/item/27-02-2017-who-publishes-list-of-bacteria-for-which-new-antibiotics-are-urgently-needed
 ## Supplementary Tables
 **Table S1:** Subtype prevalence of K. pneumonia in **ATLAS** from 2018 to 2021 
-| Subtype   | 2018  | 2019  | 2020  | 2021  |
+| Subtype   | 2018(%)  | 2019(%)  | 2020(%)  | 2021(%)  |
 | ------ | ----- | ----- | ----- | ----- |
 | RRRRR  | 14.98 | 15.45 | 15.53 | 17.98 |
 | RRRRS  | 3.22  | 2.52  | 2.62  | 2.54  |
@@ -167,7 +167,7 @@ Antibiotic Resistance Increases with Local Temperature. 8(6), 510–514. https:/
 
 
 **Table S2:** Subtype prevalence of K. pneumonia in **GEARS** from 2018 to 2021 
-| Subtype | 2018  | 2019  | 2020  | 2021  |
+| Subtype | 2018(%)  | 2019(%)  | 2020(%)  | 2021(%)  |
 | ------- | ----- | ----- | ----- | ----- |
 | RRRRR   | 11.96 | 14.94 | 11.56 | 13.99 |
 | RRRRS   | 3.40  | 3.15  | 3.00  | 0.85  |
