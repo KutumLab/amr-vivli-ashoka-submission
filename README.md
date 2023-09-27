@@ -13,6 +13,10 @@
 | Vasundhara Karthikeyan [VK] | Data wrangling and analysis                  | Trivedi School of Biology, Ashoka University | vasundhara.karthikeyan@ashoka.edu.in | India   |
 | [Ragul N](https://twitter.com/RagulNatarajan8) [RN]                | Data wrangling and analysis                  | Department of Computer Science, Ashoka University | ragul.n_asp24@ashoka.edu.in  | India   |
 
+## Previous report submitted
+1. [31 July 2023 - Final submission](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/previous-submitted-report/01-Final-doc-31July2023.pdf)
+2. [19 Sep 2023 - with workflow version](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/previous-submitted-report/02-report-with-workflow-19Sep2023.pdf)
+
 ## Datasets included in the analysis (Tick all those that apply):
 | Project                                                      | Status |
 | ------------------------------------------------------------ | ------ |
