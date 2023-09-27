@@ -40,6 +40,8 @@ Post the multivariable regression analysis, we found that there is a strong asso
 ![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/figure-3-c-GEA-ATS.png)
 **Figure 03: Regression analysis between all-susceptible-subtype prevalence (0-1) with relative humidity (log10 transformed).** Heatmap showing (A) prevalence of all-susceptible-subtype (SSSSS) and (B) log10(relative humidity) for 2018 across 63 countries. (C) Scatterplot between SSSSS subtype and relative humidity (RH2M) with the regression line from 2018 to 2021 (for 2018 and 2021 corresponding p-values were less than 0.05).
 
+![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/figure-4-ab-GEA-ATS.png)
+![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/figure-4-c-GEA-ATS.png)
 **Figure 04: Regression analysis between all-resistance-subtype prevalence (0-1) with relative humidity (log10 transformed).** Heatmap showing (A) prevalence of all-resistance-subtype (RRRRR) and (B) log10(relative humidity) for 2018 across 63 countries. (C) Scatterplot between RRRRR subtype and relative humidity (RH2M) with the regression line from 2018 to 2021 (for 2020 corresponding p-value was less than 0.05).
 
 ## Impact of the work:
