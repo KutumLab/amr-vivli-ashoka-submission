@@ -1,5 +1,5 @@
 ## [Vivli AMR Surveillance Open Data Re-use Data Challenge](https://amr.vivli.org/data-challenge/data-challenge-overview/)
-Ashoka University Team lead by Dr Shraddha Karve
+**Team ID: 9049**
 ## Proposal Title:
 Novel approach to analysis of AMR: looking at the composite resistance phenotype.
 ## Date of Submission (dd-mmm-yy):
