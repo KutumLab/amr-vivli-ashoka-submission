@@ -7,10 +7,10 @@
 ## Research Team Members details (put the Lead Applicant 1st in the table):
 | Team Member Name        | Role in the Data Challenge                   | Affiliation                               | Email                         | Country |
 | ----------------------- | ------------------------------------------ | ----------------------------------------- | ----------------------------- | ------- |
-| [Shraddha Karve](https://www.ashoka.edu.in/profile/shraddha-karve/) [SK]          | Conceptualization of subtype analysis, formulation of EOI and final report | Trivedi School of Biology, Ashoka University | shraddha.karve@ashoka.edu.in | India   |
+| [Shraddha Karve](https://www.ashoka.edu.in/profile/shraddha-karve/) [SK]          | Conceptualization of subtype analysis, formulation of EOI and final report | Trivedi School of Biosciences, Ashoka University | shraddha.karve@ashoka.edu.in | India   |
 | [Rintu Kutum](https://www.ashoka.edu.in/profile/rintu-kutum/) [RK]             | Data analysis and final report              | Department of Computer Science, Ashoka University | rintu.kutum@ashoka.edu.in   | India   |
 | [Devojit Kumar Sarma](https://nireh.icmr.org.in/DKSarma.php) [DS]           | Conceptualization of climatic correlations and final report | ICMR-National Institute For Research in Environmental Health (ICMR-NIREH), Bhopal                               | devojit.sarma@icmr.gov.in    | India   |
-| Vasundhara Karthikeyan [VK] | Data wrangling and analysis                  | Trivedi School of Biology, Ashoka University | vasundhara.karthikeyan@ashoka.edu.in | India   |
+| Vasundhara Karthikeyan [VK] | Data wrangling and analysis                  | Trivedi School of Biosciences, Ashoka University | vasundhara.karthikeyan@ashoka.edu.in | India   |
 | [Ragul N](https://twitter.com/RagulNatarajan8) [RN]                | Data wrangling and analysis                  | Department of Computer Science, Ashoka University | ragul.n_asp24@ashoka.edu.in  | India   |
 
 ## Previous report submitted
