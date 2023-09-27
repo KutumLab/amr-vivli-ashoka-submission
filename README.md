@@ -7,11 +7,11 @@
 ## Research Team Members details (put the Lead Applicant 1st in the table):
 | Team Member Name        | Role in the Data Challenge                   | Affiliation                               | Email                         | Country |
 | ----------------------- | ------------------------------------------ | ----------------------------------------- | ----------------------------- | ------- |
-| [Shraddha Karve](https://www.ashoka.edu.in/profile/shraddha-karve/)          | Conceptualization of subtype analysis, formulation of EOI and final report | Trivedi School of Biology, Ashoka University | shraddha.karve@ashoka.edu.in | India   |
-| [Rintu Kutum](https://www.ashoka.edu.in/profile/rintu-kutum/)             | Data analysis and final report              | Department of Computer Science, Ashoka University | rintu.kutum@ashoka.edu.in   | India   |
-| [Devojit Kumar Sarma](https://nireh.icmr.org.in/DKSarma.php)           | Conceptualization of climatic correlations and final report | ICMR-National Institute For Research in Environmental Health (ICMR-NIREH), Bhopal                               | devojit.sarma@icmr.gov.in    | India   |
-| Vasundhara Karthikeyan  | Data wrangling and analysis                 | Trivedi School of Biology, Ashoka University | vasundhara.karthikeyan@ashoka.edu.in | India   |
-| Ragul N                 | Data wrangling and analysis                 | Department of Computer Science, Ashoka University | ragul.n_asp24@ashoka.edu.in  | India   |
+| [Shraddha Karve](https://www.ashoka.edu.in/profile/shraddha-karve/) [SK]          | Conceptualization of subtype analysis, formulation of EOI and final report | Trivedi School of Biology, Ashoka University | shraddha.karve@ashoka.edu.in | India   |
+| [Rintu Kutum](https://www.ashoka.edu.in/profile/rintu-kutum/) [RK]             | Data analysis and final report              | Department of Computer Science, Ashoka University | rintu.kutum@ashoka.edu.in   | India   |
+| [Devojit Kumar Sarma](https://nireh.icmr.org.in/DKSarma.php) [DS]           | Conceptualization of climatic correlations and final report | ICMR-National Institute For Research in Environmental Health (ICMR-NIREH), Bhopal                               | devojit.sarma@icmr.gov.in    | India   |
+| Vasundhara Karthikeyan  | Data wrangling and analysis [VK]                 | Trivedi School of Biology, Ashoka University | vasundhara.karthikeyan@ashoka.edu.in | India   |
+| Ragul N                 | Data wrangling and analysis [RN]                 | Department of Computer Science, Ashoka University | ragul.n_asp24@ashoka.edu.in  | India   |
 
 ## Datasets included in the analysis (Tick all those that apply):
 | Project                                                      | Status |
@@ -46,7 +46,10 @@ All the analysis was done using Python (python 3.1.12) and R statistical program
 ## Results: 
 ### Antibiotic subtype shows significant association with climate variables:
 
-The subtype study carried out using the merged ATLAS and GEARS dataset and focusing on five antibiotics (cefepime, ceftazidime, gentamicin, levofloxacin, and piperacillin-tazobactam) identified 33 distinct subtypes of Klebsiella pneumoniae between 2018 and 2021 (Table 1 and Figure 1). Notably, the analysis highlighted that the extreme subtypes, RRRRR (~13%) and SSSSS (~55%), accounted for approximately 70% of the isolates (Table 1). We then explored the relationship between the regional patterns (averaged) of the most prevalent subtypes in the merged dataset (RRRRR and SSSSS) and the global climatic variables including precipitation, relative humidity (RH) and temperature (mean, minimum and maximum temperature) averaged over 2018-2021. Precipitation and relative humidity showed higher correlations with many of the subtypes than the temperature variables over the years (Figure 2). Owing to the consistent strength of correlation of precipitation and relative humidity with the most prevalent subtypes (RRRRR and SSSSS) across the years, we focused our analysis on the association between these parameters and the predominant subtypes.
+The subtype study carried out using the merged ATLAS and GEARS dataset and focusing on five antibiotics (cefepime, ceftazidime, gentamicin, levofloxacin, and piperacillin-tazobactam) identified 33 distinct subtypes of Klebsiella pneumoniae between 2018 and 2021 (Figure 1 and Table 1). Notably, the analysis highlighted that the extreme subtypes, RRRRR (~13%) and SSSSS (~55%), accounted for approximately 70% of the isolates (Table 1). We then explored the relationship between the regional patterns (averaged) of the most prevalent subtypes in the merged dataset (RRRRR and SSSSS) and the global climatic variables including precipitation, relative humidity (RH) and temperature (mean, minimum and maximum temperature) averaged over 2018-2021. Precipitation and relative humidity showed higher correlations with many of the subtypes than the temperature variables over the years (Figure 2). Owing to the consistent strength of correlation of precipitation and relative humidity with the most prevalent subtypes (RRRRR and SSSSS) across the years, we focused our analysis on the association between these parameters and the predominant subtypes.
+
+![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/figure-1-complete-workflow.png)
+**Figure 1: Complete workflow of integration of AMR data with environmental parameters.** (A) Illustration showing conversion for gram negative pathogens antibiotics data (FEP, CAZ, GEN, LVX, and TZP) to subtype for clinical isolates for different countries, (B) Illustration showing year wise (2018) prevalence of 32 subtypes for the given antibiotics, (C) Illustration showing 6 environmental parameters across countries for a given year (2018), (D) Regression analysis showing relationship between RRRRR subtype prevalence with relative humidity (RH2M).
 
 **Table 1:** Subtype prevalence of K. pneumonia from 2018 to 2021.
 
@@ -85,22 +88,19 @@ The subtype study carried out using the merged ATLAS and GEARS dataset and focus
 | SSSSR   | 2.33  | 2.84  | 2.74  | 2.25  |
 | SSSSS	  | 50.18	| 48.46	| 50.36	| 49.53 |
 
-![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/figure-1-complete-workflow.png)
-**Figure 01: Complete workflow of integration of AMR data with environmental parameters.** (A) Illustration showing conversion for gram negative pathogens antibiotics data (FEP, CAZ, GEN, LVX, and TZP) to subtype for clinical isolates for different countries, (B) Illustration showing year wise (2018) prevalence of 32 subtypes for the given antibiotics, (C) Illustration showing 6 environmental parameters across countries for a given year (2018), (D) Regression analysis showing relationship between RRRRR subtype prevalence with relative humidity (RH2M).
-
 ![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/figure-02-subtype-envr-ATLAS-GEARS.png)
-**Figure 02: Bubble plot representing significant association post regression analysis across different subtypes of K. pneumonia and global climatic parameters from 2018 to 2021 using ATLAS and GEARS data.** The color intensity represents the R-squared value and size of the point represents the -log10(p-value), where bigger size implies statistical significance.
+**Figure 2: Bubble plot representing significant association post regression analysis across different subtypes of K. pneumonia and global climatic parameters from 2018 to 2021 using ATLAS and GEARS data.** The color intensity represents the R-squared value and size of the point represents the -log10(p-value), where bigger size implies statistical significance.
 
 ### Association of relative humidity with all-susceptible-subtype (SSSSS) and all-resistance-subtype (RRRRR)
 Post the multivariable regression analysis, we found that there is a strong association between the all-susceptible subtype and the relative humidity (Figure 3) and this was consistent across all the regions. We see that there is a significant inverse relationship between RH and SSSSS subtype with time (2021). We saw a similar trend between RH and RRRRR subtype across all the regions. With 2020, showing a significant inverse relationship between the RRRRR subtype and RH (Figure 4).
 
 ![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/figure-3-ab-GEA-ATS.png)
 ![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/figure-3-c-GEA-ATS.png)
-**Figure 03: Regression analysis between all-susceptible-subtype prevalence (0-1) with relative humidity (log10 transformed).** Heatmap showing (A) prevalence of all-susceptible-subtype (SSSSS) and (B) log10(relative humidity) for 2018 across 63 countries. (C) Scatterplot between SSSSS subtype and relative humidity (RH2M) with the regression line from 2018 to 2021 (for 2018 and 2021 corresponding p-values were less than 0.05).
+**Figure 3: Regression analysis between all-susceptible-subtype prevalence (0-1) with relative humidity (log10 transformed).** Heatmap showing (A) prevalence of all-susceptible-subtype (SSSSS) and (B) log10(relative humidity) for 2018 across 63 countries. (C) Scatterplot between SSSSS subtype and relative humidity (RH2M) with the regression line from 2018 to 2021 (for 2018 and 2021 corresponding p-values were less than 0.05).
 
 ![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/figure-4-ab-GEA-ATS.png)
 ![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/figure-4-c-GEA-ATS.png)
-**Figure 04: Regression analysis between all-resistance-subtype prevalence (0-1) with relative humidity (log10 transformed).** Heatmap showing (A) prevalence of all-resistance-subtype (RRRRR) and (B) log10(relative humidity) for 2020. (C) Scatterplot between RRRRR subtype and relative humidity (RH2M) with the regression line from 2018 to 2021 (for 2020 corresponding p-value was less than 0.05).
+**Figure 4: Regression analysis between all-resistance-subtype prevalence (0-1) with relative humidity (log10 transformed).** Heatmap showing (A) prevalence of all-resistance-subtype (RRRRR) and (B) log10(relative humidity) for 2020. (C) Scatterplot between RRRRR subtype and relative humidity (RH2M) with the regression line from 2018 to 2021 (for 2020 corresponding p-value was less than 0.05).
 
 ## Impact of the work:
 
@@ -128,6 +128,23 @@ Antibiotic Resistance Increases with Local Temperature. 8(6), 510–514. https:/
 8. Ratkowsky, D. A., Olley, J., McMeekin, T. A., & Ball, A. (1982). Relationship between temperature and growth rate of bacterial cultures. Journal of Bacteriology, 149(1), 1–5. https://doi.org/10.1128/JB.149.1.1-5.1982
 
 9. WHO publishes list of bacteria for which new antibiotics are urgently needed. (n.d.). Retrieved July 31, 2023, fromhttps://www.who.int/news/item/27-02-2017-who-publishes-list-of-bacteria-for-which-new-antibiotics-are-urgently-needed
+
+## Supplementary figures
+
+![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/supplementary-figure-3-ab-ATS.png)
+![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/supplementary-figure-3-c-ATS.png)
+**Figure S3: ATLAS data only - regression analysis between all-susceptible-subtype prevalence (0-1) with relative humidity (log10 transformed)** 
+![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/supplementary-figure-3-ab-GEA.png)
+![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/supplementary-figure-3-c-GEA.png)
+**Figure S4: GEARS data only - regression analysis between all-susceptible-subtype prevalence (0-1) with relative humidity (log10 transformed)**
+
+![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/supplementary-figure-4-ab-ATS.png)
+![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/supplementary-figure-4-c-ATS.png)
+**Figure S5: ATLAS data only - regression analysis between all-resistance-subtype prevalence (0-1) with relative humidity (log10 transformed)** 
+![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/supplementary-figure-4-ab-GEA.png)
+![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/supplementary-figure-4-c-GEA.png)
+**Figure S6: GEARS data only - regression analysis between all-resistance-subtype prevalence (0-1) with relative humidity (log10 transformed)**
+
 ## Supplementary Tables
 **Table S1:** Subtype prevalence of K. pneumonia in **ATLAS** from 2018 to 2021 
 | Subtype   | 2018(%)  | 2019(%)  | 2020(%)  | 2021(%)  |
@@ -202,23 +219,9 @@ Antibiotic Resistance Increases with Local Temperature. 8(6), 510–514. https:/
 | SSSSR   | 2.39  | 2.88  | 3.24  | 2.65  |
 | SSSSS   | 55.79 | 48.23 | 56.32 | 56.66 |
 
-
-
-## Supplementary figures
-
-![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/supplementary-figure-3-ab-ATS.png)
-![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/supplementary-figure-3-c-ATS.png)
-**Figure S3: ATLAS data only - regression analysis between all-susceptible-subtype prevalence (0-1) with relative humidity (log10 transformed)** 
-![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/supplementary-figure-3-ab-GEA.png)
-![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/supplementary-figure-3-c-GEA.png)
-**Figure S4: GEARS data only - regression analysis between all-susceptible-subtype prevalence (0-1) with relative humidity (log10 transformed)**
-
-![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/supplementary-figure-4-ab-ATS.png)
-![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/supplementary-figure-4-c-ATS.png)
-**Figure S5: ATLAS data only - regression analysis between all-resistance-subtype prevalence (0-1) with relative humidity (log10 transformed)** 
-![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/supplementary-figure-4-ab-GEA.png)
-![alt text](https://github.com/KutumLab/amr-vivli-ashoka-submission/blob/main/figures/supplementary-figure-4-c-GEA.png)
-**Figure S6: GEARS data only - regression analysis between all-resistance-subtype prevalence (0-1) with relative humidity (log10 transformed)**
+## Acknowledgements
+SK, RK, DK, VK and RN would like to thank Vivli AMR Surveillance Open Data Re-use Data Challenge organisers and reviewers for their critical inputs and suggestions.
+SK and RK would like to thank [The Rockefeller Foundation](https://www.rockefellerfoundation.org/), [Mphasis F1 Foundation](https://www.mphasis.com/home/corporate/community-social-responsibility.html) for the initial funding & fellowship supports for subtype analysis for AMR in India. SK would also like to funding support from SERB. Additionally, RK and RN would like to thank the Centre for Computational Biology and Bioinformatics for High Performance Computing facility at Ashoka University. RN thanks Mphasis F1 Foundation for his fellowship support. DS acknowledges support of ICMR-NIREH. 
 
 
 
