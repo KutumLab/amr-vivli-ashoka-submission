@@ -7,8 +7,7 @@ df['subtype']=df[df.columns[9:]].apply(
     axis=1
 )
 
-
-df3 = df.groupby(['Year','Country','subtype'])['subtype'].count()
+df2 = df.groupby(['Year','Country','subtype'])['subtype'].count()
 
 df2.to_csv('ATS-subtype5-con.csv')
 
