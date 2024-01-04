@@ -2,6 +2,7 @@
 **Team ID: 9049**
 ## Proposal Title:
 **Novel approach to analysis of AMR: looking at the composite resistance phenotype**
+## [WON THE INNOVATION AWARD](https://amr.vivli.org/data-challenge/finalist-and-award-winning-solutions/)
 ## Date of Submission (dd-mmm-yy):
 30th July 2023
 ## Research Team Members details (put the Lead Applicant 1st in the table):
