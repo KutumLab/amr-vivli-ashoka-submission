@@ -5,8 +5,10 @@
 #### [WON THE INNOVATION AWARD](https://amr.vivli.org/data-challenge/finalist-and-award-winning-solutions/) Congrats!!! to team members
 
 ## News
-- [Ashoka University wins the innovation for the AMR data challenge](https://indiaeducationdiary.in/ashoka-university-wins-the-innovation-award-for-the-antimicrobial-resistance-amr-data-challenge/)
 - 4 Oct 2023 | [Orginal release from Ashoka University](https://www.ashoka.edu.in/ashoka-university-wins-the-innovation-award-for-the-antimicrobial-resistance-amr-data-challenge/)
+- 5 Oct 2023 | [Express Pharma](https://www.expresspharma.in/ashoka-university-wins-innovation-award-for-amr-data-challenge/)
+- [India Education Diary](https://indiaeducationdiary.in/ashoka-university-wins-the-innovation-award-for-the-antimicrobial-resistance-amr-data-challenge/)
+
 
 ## Date of Submission (dd-mmm-yy):
 30th July 2023
